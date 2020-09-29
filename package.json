@@ -16,5 +16,13 @@
 		"fastify-swagger": "^2.4.0",
 		"mongoose": "^5.7.5",
 		"nodemon": "^1.19.1"
+	},
+	"devDependencies": {
+		"husky": "^4.3.0"
+	},
+	"husky": {
+    "hooks": {
+			"post-merge": "./scripts/post-merge"
+		}
 	}
 }
