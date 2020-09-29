@@ -24,7 +24,7 @@
 	},
 	"husky": {
 		"hooks": {
-			"post-merge": "npm run postmerge"
+			"post-merge": "./scripts/postMerge"
 		}
 	}
 }
