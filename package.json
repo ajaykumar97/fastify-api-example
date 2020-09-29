@@ -23,8 +23,8 @@
 		"husky": "^4.3.0"
 	},
 	"husky": {
-    "hooks": {
-      "post-merge": "npm run smart-install"
-    }
-  }
+		"hooks": {
+			"post-merge": "npm run smart-install"
+		}
+	}
 }
