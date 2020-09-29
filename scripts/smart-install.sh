@@ -8,7 +8,7 @@ checkForChangedFiles() {
 
 packageJsonHasChanged() {
   echo "Changes to package.json detected, installing updates"
-  yarn install
+  npm i
 }
 
 checkForChangedFiles package.json packageJsonHasChanged
