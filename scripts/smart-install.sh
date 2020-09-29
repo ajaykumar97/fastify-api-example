@@ -3,7 +3,7 @@
 changedFiles="$(git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD)"
 
 checkForChangedFiles() {
-    echo "$changedFiles" | grep --quiet "$1" && eval "$2"
+	echo "$changedFiles" | grep --quiet "$1" && eval "$2"
 }
 
 packageJsonHasChanged() {
