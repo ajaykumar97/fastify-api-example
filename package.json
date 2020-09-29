@@ -21,7 +21,7 @@
 		"husky": "^4.3.0"
 	},
 	"husky": {
-    "hooks": {
+		"hooks": {
 			"post-merge": "./scripts/post-merge"
 		}
 	}
