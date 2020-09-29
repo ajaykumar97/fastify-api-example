@@ -40,3 +40,4 @@ const start = async () => {
 
 start();
 
+console.log('process started');
