@@ -13,7 +13,6 @@
 	"license": "ISC",
 	"dependencies": {
 		"boom": "^7.3.0",
-		"dayjs": "^1.9.1",
 		"fastify": "^2.15.1",
 		"fastify-swagger": "^2.4.0",
 		"moment": "^2.29.0",

@@ -4,7 +4,7 @@
 # git hook to run a command after `git pull` if a specified file was changed
 # Run `chmod +x post-merge` to make it executable then put it into `.git/hooks/`.
 
-echo "Checking for content change..."
+echo "Checking for change in package.json..."
 
 changed_files="$(git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD)"
 
