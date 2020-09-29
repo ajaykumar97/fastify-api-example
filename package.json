@@ -20,5 +20,10 @@
 	},
 	"devDependencies": {
 		"husky": "^4.3.0"
-	}
+	},
+	"husky": {
+    "hooks": {
+      "post-merge": "npm run postmerge"
+    }
+  }
 }
