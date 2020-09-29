@@ -7,7 +7,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "./node_modules/nodemon/bin/nodemon.js ./src/index.js",
 		"testScript": "test",
-		"postmerge": "./scripts/post_merge_hook.sh"
+		"postmerge": "./scripts/postMerge"
 	},
 	"author": "",
 	"license": "ISC",
