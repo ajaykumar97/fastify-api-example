@@ -7,7 +7,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "./node_modules/nodemon/bin/nodemon.js ./src/index.js",
 		"testScript": "test",
-		"postmerge": "./scripts/postMerge"
+		"postmerge": "npm test"
 	},
 	"author": "",
 	"license": "ISC",
@@ -21,10 +21,5 @@
 	},
 	"devDependencies": {
 		"husky": "^4.3.0"
-	},
-	"husky": {
-		"hooks": {
-			"post-merge": "npm test"
-		}
 	}
 }
